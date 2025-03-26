@@ -4,6 +4,9 @@
 
 O Weather App fornece previsões do tempo em tempo real, permitindo que os usuários visualizem a temperatura atual e as condições climáticas de qualquer cidade do mundo. Desenvolvido com HTML, CSS e JavaScript, o aplicativo oferece uma interface simples e intuitiva.
 
+## Site
+https://perdop.github.io/Portfolio/projetos/weather/weather.html
+
 ## Funcionalidades
 
 - Consultar o clima atual digitando o nome de uma cidade.
