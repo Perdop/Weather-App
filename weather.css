@@ -1,0 +1,102 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@500&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Inter', sans-serif;
+}
+
+main{
+    background-color: rgb(132, 167, 175);
+    width: 100vw;
+    height: 100vh;
+    overflow-y: scroll;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+}
+
+main nav{
+    width: 100%;
+    height: 10%;
+    display: flex;
+    align-items: center;
+}
+main nav input{
+    margin-left: 2vw;
+    width: 90%;
+    border: solid gray 1px;
+    border-radius: 8px 0 0 8px;
+    padding: 2cqmin;
+    text-indent: 1vw;
+    font-size: 2cqmin;
+    outline: none;
+    text-indent: 10px;
+}
+main nav input:focus{
+    border: solid 1px black;    
+}
+main nav button{
+    margin-right: 2vw;
+    background-color: rgb(66, 66, 66);
+    color: rgb(241, 241, 241);
+    padding: 2cqmin;
+    width: 10%;
+    border: solid 1px gray;
+    border-radius:  0 10px 10px 0;
+    font-size: 2cqmin;
+}
+
+main .shortData{
+    width: 100%;
+    height: 40vh;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-direction: column;
+    color: rgb(255, 255, 255);
+}
+main .shortData::-webkit-scrollbar{
+    display: none;
+}v
+main .shortData h1{
+    font-size: clamp(1rem, 3vw, 3rem);
+}
+main .shortData span{
+    display: flex;
+}
+main .shortData h2{
+    font-size: clamp(4rem,12vw,15rem);
+}
+main .shortData p{
+    font-size: 400px;
+}
+main .shortData h3{
+    font-size: clamp(1rem, 3vw, 5rem);
+}
+
+main .longData{
+    margin-top: 5vh;
+    width: 100%;
+    height: 40vh;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    color: rgb(255, 255, 255);
+    text-align: center;
+}
+main .longData .weather h1{
+    font-size: 1rem;
+}
+main .longData .borderLongData{
+    padding: 3cqmin;
+    border: solid 3px rgb(255, 255, 255);
+    border-radius: 20px;
+    width: 80%;
+}
+main .longData .minTemp{
+    margin-top: 2%;
+}
+main .longData .maxTemp{
+    margin-top: 2%;
+}
