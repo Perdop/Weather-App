@@ -20,7 +20,7 @@ O Weather App fornece previsões do tempo em tempo real, permitindo que os usuá
 
 ## Como Usar
 
-1. Abra o aplicativo em um navegador.
+1. Abra o aplicativo através do link -> https://perdop.github.io/Weather-App/weather.html
 2. Digite o nome de uma cidade na barra de pesquisa.
 3. Pressione "Enter" ou clique no botão de pesquisa para visualizar as informações climáticas.
 
