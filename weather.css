@@ -69,7 +69,7 @@ main .shortData h2{
     font-size: clamp(4rem,12vw,15rem);
 }
 main .shortData p{
-    font-size: 400px;
+    font-size: clamp(4rem,12vw,15rem);
 }
 main .shortData h3{
     font-size: clamp(1rem, 3vw, 5rem);
